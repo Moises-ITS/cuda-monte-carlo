@@ -1,0 +1,4 @@
+# LF everywhere: the same tree is built on Windows (MSVC) and Linux/Colab.
+* text=auto eol=lf
+*.png binary
+*.ncu-rep binary

@@ -1,0 +1,23 @@
+# Build output
+build/
+build-*/
+out/
+.vs/
+.vscode/
+CMakeUserPresets.json
+
+# Nsight profiles can be hundreds of MB; keep them local
+*.ncu-rep
+*.nsys-rep
+profiles/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# results/*.csv is intentionally NOT ignored: raw benchmark data is committed.
